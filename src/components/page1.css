@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Lato', sans-serif;
 }
 
 .bg_video{
@@ -17,13 +18,22 @@
 .page1 {
     display: flex;
     position: relative;
+    flex-direction: column;
     color: #fff;
 
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background: rgba(0,0,0,0.7);
 }
 
-.conteudo{
+.title {
+    display: flex;
+    margin: 30vh auto auto 10vw;
+    flex-direction: column;
+    color: #fff;
+}
 
+.title h1 {
+    font-size: 60pt;
+    margin: 2vh 5vw 2vh auto;
 }
